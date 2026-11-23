@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="李琬欣作品集离线静态版">
+  <title>李琬欣｜Portfolio</title>
+  <link rel="icon" href="media/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="返回顶部"><span>W</span><b>PORTFOLIO</b></a>
+    <p>李琬欣</p>
+  </header>
+
+  <nav class="project-rail" aria-label="项目导航">
+    <header><span>PROJECTS</span><b id="rail-count">01 / 06</b></header>
+    <a href="#leafboat" data-project-link><span>01</span><strong>叶舟</strong></a>
+    <a href="#monster-ranch" data-project-link><span>02</span><strong>怪兽养殖建造</strong></a>
+    <a href="#maya" data-project-link><span>03</span><strong>探寻玛雅</strong></a>
+    <a href="#academy-mist" data-project-link><span>04</span><strong>学院迷雾</strong></a>
+    <a href="#archeditor" data-project-link><span>05</span><strong>ArchEditor</strong></a>
+    <a href="#bamiyan" data-project-link><span>06</span><strong>巴米扬</strong></a>
+    <div class="rail-progress" aria-hidden="true"><i id="rail-progress"></i></div>
+    <a class="rail-top" href="#top">返回顶部</a>
+  </nav>
+
+  <div class="mobile-index" aria-label="移动端项目导航">
+    <span id="mobile-count">01 / 06</span>
+    <select id="mobile-project-select" aria-label="跳转到项目">
+      <option value="leafboat">叶舟</option>
+      <option value="monster-ranch">怪兽养殖建造</option>
+      <option value="maya">探寻玛雅</option>
+      <option value="academy-mist">学院迷雾</option>
+      <option value="archeditor">ArchEditor</option>
+      <option value="bamiyan">巴米扬</option>
+    </select>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <p>李琬欣</p>
+      <h1>PORTFOLIO</h1>
+      <div><p>让一切自然发生！</p></div>
+    </section>
+
+    <section class="directory" aria-labelledby="directory-title">
+      <header class="section-heading"><p>INDEX</p><h2 id="directory-title">项目目录</h2></header>
+      <div class="directory-list">
+        <a class="directory-card" href="#leafboat">
+          <img src="media/media/covers/leafboat.jpg" alt="叶舟项目封面">
+          <div><span>系统设计</span><h3>叶舟</h3><p>统一的蛛丝规则改变对象状态，并连接采集、生存、建造与航行，形成可被玩家发现的涌现。</p></div>
+          <small>简单规则 · 状态变化 · 涌现</small>
+        </a>
+        <a class="directory-card" href="#monster-ranch">
+          <img src="media/media/covers/monster-ranch-cover.png" alt="怪兽养殖建造项目封面">
+          <div><span>系统设计</span><h3>怪兽养殖建造</h3><p>规划、施工与区域划分把建造结果交给员工、物流和养殖，形成复杂的跨系统联动。</p></div>
+          <small>规划施工 · 区域管理 · 系统联动</small>
+        </a>
+        <a class="directory-card" href="#maya">
+          <img src="media/media/covers/maya.jpg" alt="探寻玛雅项目封面">
+          <div><span>关卡设计</span><h3>探寻玛雅</h3><p>地图持续呈现通路与解谜点状态，任务读取这些状态，引导玩家寻找线索并完成机关。</p></div>
+          <small>地图可视化 · 任务引导 · 解谜关卡</small>
+        </a>
+        <a class="directory-card" href="#academy-mist">
+          <img src="media/media/covers/academy-cover.jpg" alt="学院迷雾项目封面">
+          <div><span>叙事设计</span><h3>学院迷雾</h3><p>玩家选择写入任务、人物与信息状态，条件组合决定多条剧情的开放、隐藏与汇合。</p></div>
+          <small>状态驱动 · 多线叙事</small>
+        </a>
+        <a class="directory-card" href="#archeditor">
+          <img src="media/media/covers/archeditor-cover.jpg" alt="ArchEditor 项目封面">
+          <div><span>交互工具</span><h3>ArchEditor</h3><p>Unity 体块生成深度图，ControlNet 以空间约束控制 AI 生成，并按偏差返回不同调整路径。</p></div>
+          <small>AI 生成 · 空间约束 · 技术路线</small>
+        </a>
+        <a class="directory-card" href="#bamiyan">
+          <img src="media/media/covers/bamiyan.jpg" alt="巴米扬虚拟现实体验项目封面">
+          <div><span>空间体验</span><h3>巴米扬虚拟现实体验</h3><p>从资料复原洞窟空间，将高差、尺度与光线转成关卡引导，建立对遗产场景的文化体验。</p></div>
+          <small>空间复原 · 关卡引导 · 文化体验</small>
+        </a>
+      </div>
+    </section>
+
+    <section class="projects" id="works" aria-label="项目作品">
+      <article class="project" id="leafboat" data-project="leafboat">
+        <header class="project-topline"><span>01</span><span>游戏 · 系统设计</span><span>2026</span></header>
+        <figure class="project-cover"><img src="media/media/covers/leafboat.jpg" alt="叶舟项目主视觉"></figure>
+        <section class="overview">
+          <div><p class="eyebrow">项目介绍</p><h2>叶舟</h2><p class="tagline">水上生存建造冒险游戏</p></div>
+          <div><p>玩家操纵蜘蛛收放蛛丝、调整锚点，并借助牵引改变船只航向；探索中获得的资源用于维持补给与扩建叶舟。系统重点是让“连接”同时作用于移动、采集与建造，使几个循环自然衔接。</p><dl><div><dt>职责</dt><dd>系统策划 · 独立开发</dd></div><div><dt>进度</dt><dd>独立完成可玩原型</dd></div><div><dt>工具</dt><dd>Godot</dd></div></dl></div>
+        </section>
+        <section class="demo">
+          <div><p class="eyebrow">项目演示</p><h3>完整玩法演示</h3><p>蛛丝牵引、船体移动、水上探索与资源获取。</p><span>03:55</span></div>
+          <video controls preload="metadata" poster="media/media/covers/leafboat.jpg"><source src="media/media/videos/leafboat.mp4" type="video/mp4">浏览器不支持视频播放。</video>
+        </section>
+        <div class="evidence two">
+          <figure><img src="media/leafboat-stills/connection.jpg" alt="蛛丝连接多片叶片"><figcaption>连接叶片｜同一套吐丝操作将叶片组合成漂浮结构</figcaption></figure>
+          <figure><img src="media/leafboat-stills/navigation.jpg" alt="叶舟在水流中航行"><figcaption>水面航行｜收放连接，顺着水流调整船体方向</figcaption></figure>
+        </div>
+        <section class="system-feature">
+          <div class="feature-copy"><p class="eyebrow">系统设计</p><h3>规则联动</h3><p>基础规则是“吐丝建立连接，收丝拉动物体”。物体位置、连接关系与整体重量随操作改变，并继续影响资源、生存、搭建、航行和周围生物。</p></div>
+          <figure class="diagram leafboat-diagram" role="img" aria-label="叶舟完整系统关系图">
+            <figcaption><strong>系统关系图</strong><span>操作 · 资源 · 生存 · 航行 · 环境</span></figcaption>
+            <svg viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs><marker id="arrow-lb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z"/></marker></defs>
+              <g class="edges">
+                <path d="M250 156 H400"/><path d="M600 156 H750"/><path d="M830 205 C830 315 210 310 210 205"/>
+                <path d="M210 205 V340"/><path d="M400 410 H310"/><path d="M790 360 C700 310 680 215 600 175"/><path d="M790 360 C700 395 610 410 540 410"/>
+              </g>
+              <g class="nodes">
+                <g transform="translate(70 105)"><rect width="180" height="100" rx="16" class="core"/><text x="90" y="40">蛛丝操作</text><text x="90" y="68" class="sub">吐丝连接、收丝牵引</text></g>
+                <g transform="translate(400 105)"><rect width="200" height="100" rx="16"/><text x="100" y="40">资源获取</text><text x="100" y="68" class="sub">拉近水面上的食物</text></g>
+                <g transform="translate(750 105)"><rect width="180" height="100" rx="16"/><text x="90" y="40">生存状态</text><text x="90" y="68" class="sub">饱食度支持持续吐丝</text></g>
+                <g transform="translate(90 340)"><rect width="220" height="120" rx="16"/><text x="110" y="45">叶舟搭建与航行</text><text x="110" y="75" class="sub">连接叶片，调整漂浮结构</text></g>
+                <g transform="translate(690 340)"><rect width="230" height="120" rx="16"/><text x="115" y="45">环境与生物</text><text x="115" y="75" class="sub">水流、漂浮物、鱼</text></g>
+              </g>
+              <g class="labels"><text x="650" y="300">影响移动与资源获取</text><text x="610" y="440">可能争抢食物</text><text x="310" y="393">移动到新的位置</text></g>
+            </svg>
+            <p>获取食物维持吐丝能力，连接叶片调整航行结构；水流与周围生物持续影响玩家选择。</p>
+          </figure>
+        </section>
+        <details class="detail-drawer">
+          <summary><span>查看规则闭环与试玩迭代</span><small>完整规则 · 三轮问题与解决方案</small></summary>
+          <div class="drawer-body">
+            <section class="rule-loop">
+              <h3>规则闭环</h3>
+              <div class="flow-stack">
+                <div class="flow-card core"><strong>基础规则</strong><span>吐丝建立连接，收丝拉动物体</span></div><i>↓</i>
+                <div class="flow-card"><strong>状态变化</strong><span>物体位置、连接关系与整体运动状态</span></div><i>↓</i>
+                <div class="flow-branches four"><div><strong>资源与生存</strong><span>食物被拉近，补充饱食度</span></div><div><strong>水域生态</strong><span>鱼靠近争抢，影响获取</span></div><div><strong>叶舟搭建</strong><span>叶片接入，结构变化</span></div><div><strong>水面航行</strong><span>重量变化，牵引结果变化</span></div></div><i>↓</i>
+                <div class="flow-card"><strong>状态反馈与操作选择</strong><span>根据当前状态调整目标、连接与收丝方式，进入下一轮判定</span></div>
+              </div>
+            </section>
+            <section class="iterations">
+              <h3>试玩迭代</h3>
+              <article><span>01</span><div><h4>操作理解</h4><p><b>问题</b> 吐丝、收丝和物品处理键位分散，玩家需要反复记忆。</p><p><b>解决</b> 将蛛丝操作集中到鼠标按键与滚轮，合并用途相近的物品操作。</p></div><img src="media/leafboat-stills/structure.jpg" alt="蛛丝连接与操作提示"></article>
+              <article><span>02</span><div><h4>探索动力</h4><p><b>问题</b> 环境安逸、生存压力偏低，玩家缺少前往目的地的动力。</p><p><b>解决</b> 引入精神状态与河流污染，并用特殊物品提示故事背景。</p></div><img src="media/leafboat-stills/river.jpg" alt="航行目标与水域探索"></article>
+              <article><span>03</span><div><h4>玩家新用法</h4><p><b>问题</b> 玩家把持续刷新的叶片连成道路，削弱了航行必要性。</p><p><b>解决</b> 区分叶片密集区与稀疏区，保留基地搭建，让跨区移动需要航行。</p></div><img src="media/leafboat-stills/passage.jpg" alt="多叶连接与水域穿行"></article>
+            </section>
+          </div>
+        </details>
+      </article>
+
+      <article class="project" id="monster-ranch" data-project="monster-ranch">
+        <header class="project-topline"><span>02</span><span>游戏 · 系统设计</span><span>2026</span></header>
+        <figure class="project-cover"><img src="media/media/covers/monster-ranch-cover.png" alt="怪兽养殖建造项目主视觉"></figure>
+        <section class="overview"><div><p class="eyebrow">项目介绍</p><h2>怪兽养殖建造</h2><p class="tagline">怪物养殖与园区经营 · 建造系统</p></div><div><p>玩家从地基、围栏、门和设施等构件出发，自行组织怪物栏舍与工作空间，再划定用途、安排员工与物资流转。我在四人团队中负责建造系统的策划与功能实现。</p><dl><div><dt>职责</dt><dd>建造系统策划与开发 · 腾讯光子实习</dd></div><div><dt>进度</dt><dd>研发中 · 已有建造与区域实机</dd></div><div><dt>工具</dt><dd>Godot · 系统规则 · 功能实现</dd></div></dl></div></section>
+        <div class="evidence two"><figure><img src="media/media/monster-ranch/ranch-pen.png" alt="围栏和门组成怪物栏舍"><figcaption>建成栏舍｜围栏与门构成可使用空间</figcaption></figure><figure><img src="media/media/monster-ranch/staff-zone.png" alt="在宿舍划定员工区"><figcaption>区域用途｜宿舍设施进入员工区的条件检查</figcaption></figure></div>
+        <section class="system-feature"><div class="feature-copy"><p class="eyebrow">建造系统</p><h3>规划 · 施工 · 区域</h3><p>蓝图位于规划与施工之间；实际建成的结构和区域用途共同进入空间检查，再将能力交给养殖、员工、物流与安全系统。</p></div>
+          <figure class="diagram system-map"><figcaption><strong>建造系统总览</strong><span>三个项目层及其交接关系</span></figcaption><div class="map-row"><div class="flow-card"><strong>规划系统</strong><span>选择 · 摆放 · 预览</span></div><i>→</i><div class="flow-card"><strong>暂存方案 / 蓝图</strong></div><i>→</i><div class="flow-card core"><strong>实际建造</strong><span>材料 · 员工 · 施工</span></div></div><div class="map-row offset"><div class="flow-card"><strong>区域划分</strong><span>用途 · 权限</span></div><i>→</i><div class="flow-card core"><strong>空间检查</strong></div><i>→</i><div class="flow-card"><strong>运营系统</strong><span>养殖 · 员工 · 物流 · 安全</span></div></div><p class="feedback-line">运营结果 → 扩建与改造需求 → 返回规划</p></figure>
+        </section>
+        <details class="detail-drawer"><summary><span>查看建造系统细节</span><small>规划 · 施工 · 区域 · 跨系统反馈</small></summary><div class="drawer-body">
+          <section class="content-block"><div><p class="eyebrow">规划系统</p><h3>从放置到蓝图</h3><p>玩家选择目标与单件，查看占地、材料和前置条件，再调整位置、朝向并接受放置校验。通过后可暂存蓝图；确认开工才交给施工。</p></div><div class="evidence two"><figure><img src="media/media/monster-ranch/placement-preview.png" alt="绿色放置预览"><figcaption>放置预览｜确认占地与位置</figcaption></figure><figure><img src="media/media/monster-ranch/saved-blueprint.png" alt="蓝色地板组成暂存方案"><figcaption>暂存蓝图｜方案已保存，尚未施工</figcaption></figure></div><div class="flow-inline"><span>选择建造项目</span><i>→</i><span>查看依赖</span><i>→</i><span>占地与朝向预览</span><i>→</i><span>放置校验</span><i>→</i><span>蓝图 / 开工</span></div></section>
+          <section class="content-block"><div><p class="eyebrow">实际建造</p><h3>构件与施工</h3><p>地基、墙、围栏、门、道路和设施是可组合对象。施工队列继续检查材料、员工与施工位；完工后分别更新外观、占地、通行和设施功能。</p></div><div class="evidence two mixed"><figure><img src="media/media/monster-ranch/dorm.png" alt="员工宿舍完工示例"><figcaption>墙体与床位组成员工宿舍</figcaption></figure><figure><img src="media/media/monster-ranch/wall-prerequisite.png" alt="墙需要已完成地基"><figcaption>前置条件｜墙需要已完成地基</figcaption></figure></div></section>
+          <section class="content-block"><div><p class="eyebrow">区域划分</p><h3>用途与条件</h3><p>区域读取已建墙、门与设施，检查围合、面积、入口和可达性。条件不足时列出缺口；结构或占地变化后重新检查。</p></div><img class="wide-image" src="media/media/monster-ranch/region-panel.png" alt="区域管理面板和区域状态"></section>
+          <section class="content-block"><div><p class="eyebrow">跨系统影响</p><h3>养殖与自动化</h3><p>怪物长大 → 调整围栏与区域 → 检查投喂设施和员工路线 → 补充材料并开工 → 重新检查收容与照料条件。</p></div><div class="flow-inline"><span>建筑与区域</span><i>→</i><span>空间和设施状态</span><i>→</i><span>物流 / 员工 / 养殖</span><i>→</i><span>成本与产出</span><i>→</i><span>下一轮规划</span></div></section>
+        </div></details>
+      </article>
+
+      <article class="project" id="maya" data-project="maya">
+        <header class="project-topline"><span>03</span><span>游戏 · 关卡设计</span><span>2025</span></header>
+        <figure class="project-cover"><img src="media/media/covers/maya.jpg" alt="探寻玛雅项目主视觉"></figure>
+        <section class="overview"><div><p class="eyebrow">项目介绍</p><h2>探寻玛雅</h2><p class="tagline">虚拟现实遗迹探索与解谜</p></div><div><p>第一章在遗迹室内设置阵列、壁画、三层密码门和金币柜子；后续章节进入雨林与神殿，围绕棺椁、祖灵、供品和祭坛组织探索路线。</p><dl><div><dt>职责</dt><dd>玩法策划 · 关卡设计</dd></div><div><dt>进度</dt><dd>完成三章地图与解谜点设计</dd></div><div><dt>工具</dt><dd>Unity</dd></div></dl></div></section>
+        <section class="demo external-demo">
+          <div><p class="eyebrow">项目演示</p><h3>遗迹探索演示</h3><p>外部视频展示遗迹探索、场景交互与解谜流程。播放器加载失败时，可通过下方按钮在 YouTube 打开。</p><a class="external-video-link" href="https://www.youtube.com/watch?v=iSy3k8JeMlQ&t=74s" target="_blank" rel="noopener noreferrer">在 YouTube 打开</a></div>
+          <div class="youtube-embed"><iframe src="https://www.youtube-nocookie.com/embed/iSy3k8JeMlQ?start=74" title="探寻玛雅项目演示" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        </section>
+        <div class="evidence two board"><figure><img src="media/case-assets/maya/interior-map.webp" alt="遗迹室内地图和解谜点"><figcaption>室内解谜｜阵列触发门，壁画提供密码</figcaption></figure><figure><img src="media/case-assets/maya/exterior-map.webp" alt="雨林与神殿地图"><figcaption>室外路线｜棺椁、祖灵、供品与祭坛</figcaption></figure></div>
+        <section class="system-feature"><div class="feature-copy"><p class="eyebrow">关卡系统</p><h3>地图 · 任务 · 状态</h3><p>地图回答“哪里可去、机关做到哪一步”；任务读取地图状态生成当前目标。完成机关后，点位、通路和下一目标同步更新。</p></div><figure class="diagram lane-diagram"><figcaption><strong>地图与任务</strong><span>可视化状态与任务引导互相更新</span></figcaption><div class="lane"><b>地图可视化</b><div><span>空间分区</span><i>→</i><span>通路与门状态</span><i>→</i><span class="core">解谜点状态</span></div></div><em>读取地图状态 ↓</em><div class="lane"><b>任务引导</b><div><span class="core">当前目标</span><i>→</i><span>到达目标点</span><i>→</i><span>执行交互</span><i>→</i><span>条件校验</span></div></div><div class="result-pair"><p><b>未通过</b> 保留目标并提示缺失线索</p><p><b>通过</b> 更新点位、开放通路、生成下一目标</p></div></figure></section>
+        <details class="detail-drawer"><summary><span>查看地图、点位与章节路线</span><small>室内解谜 · 室外任务 · 原始方案</small></summary><div class="drawer-body"><section class="content-block"><h3>室内解谜点</h3><div class="info-grid four"><article><b>中央阵列</b><p>踩踏后启动密码门外圈。</p></article><article><b>壁画</b><p>提供第三圈所需密码。</p></article><article><b>密码门</b><p>外圈、图腾和密码构成三层机制。</p></article><article><b>金币柜子</b><p>可选探索，不参与开门判定。</p></article></div></section><section class="content-block"><h3>室外章节路线</h3><div class="flow-inline"><span>棺椁密码</span><i>→</i><span>祖灵出现</span><i>→</i><span>寻找三处供品</span><i>→</i><span>返回祭坛</span><i>→</i><span>完成仪式</span></div><div class="evidence two board"><figure><img src="media/case-assets/maya/interior-points.webp" alt="室内原始解谜点位"><figcaption>室内点位｜门、阵列、壁画与柜子</figcaption></figure><figure><img src="media/case-assets/maya/exterior-points.webp" alt="室外原始任务点位"><figcaption>室外点位｜棺椁、祖灵与仪式对象</figcaption></figure></div></section></div></details>
+      </article>
+
+      <article class="project" id="academy-mist" data-project="academy-mist">
+        <header class="project-topline"><span>04</span><span>游戏 · 叙事设计</span><span>2024</span></header>
+        <figure class="project-cover"><img src="media/media/covers/academy-cover.jpg" alt="学院迷雾项目主视觉"></figure>
+        <section class="overview"><div><p class="eyebrow">项目介绍</p><h2>学院迷雾</h2><p class="tagline">水墨风格 RPG 互动叙事</p></div><div><p>第一幕可玩演示包含学院委托、接受或暂不接受任务、竹林相遇与角色对话。后续以任务、人物和已知信息状态组织多线剧情。</p><dl><div><dt>职责</dt><dd>叙事策划 · 玩法设计</dd></div><div><dt>进度</dt><dd>第一幕可玩；长线结构为策划方案</dd></div><div><dt>工具</dt><dd>Unity</dd></div></dl></div></section>
+        <section class="demo"><div><p class="eyebrow">项目演示</p><h3>第一幕演示</h3><p>任务选择、竹林对话与场景切换。</p><span>02:21</span></div><video controls preload="metadata" poster="media/media/covers/academy-cover.jpg"><source src="media/media/videos/academy-mist.mp4" type="video/mp4">浏览器不支持视频播放。</video></section>
+        <div class="evidence two"><figure><img src="media/case-assets/academy/mission-choice.jpg" alt="接受或暂不接受任务选项"><figcaption>任务选择｜写入任务状态</figcaption></figure><figure><img src="media/case-assets/academy/bamboo-dialogue.jpg" alt="竹林人物对话"><figcaption>竹林对话｜人物与信息分支入口</figcaption></figure></div>
+        <section class="system-feature"><div class="feature-copy"><p class="eyebrow">叙事系统</p><h3>多线叙事</h3><p>选择不是一次性对话树，而是写入可跨场景保留的任务、人物与信息状态。后续节点组合读取，决定分支开放、隐藏和汇合。</p></div><figure class="diagram narrative-flow"><figcaption><strong>状态驱动的多线叙事</strong><span>选择 · 持续状态 · 条件组合 · 分支汇合</span></figcaption><div class="flow-inline centered"><span>场景与任务节点</span><i>→</i><span class="core">玩家选择</span></div><em>写入持续状态 ↓</em><div class="flow-branches three"><div><strong>任务状态</strong><span>接受 · 进行 · 完成 · 保留</span></div><div><strong>人物状态</strong><span>立场 · 信任 · 关系变化</span></div><div><strong>信息状态</strong><span>已知线索 · 已触发事件</span></div></div><em>任务 × 人物 × 信息 ↓</em><div class="condition">条件组合检查</div><div class="flow-branches four"><div><strong>主任务事件</strong></div><div><strong>人物专属分支</strong></div><div><strong>秘密分支</strong></div><div><strong>条件不足</strong><span>保持隐藏</span></div></div><em>分支推进或汇合 ↓</em><div class="flow-card core final"><strong>下一场景 · 写入新状态 · 继续</strong></div></figure></section>
+        <details class="detail-drawer"><summary><span>查看第一幕与原始章节方案</span><small>实机边界 · 分支节点 · 章节表</small></summary><div class="drawer-body"><section class="content-block"><h3>第一幕流程</h3><div class="flow-inline"><span>学院委托</span><i>→</i><span>接受 / 保留</span><i>→</i><span>进入竹林</span><i>→</i><span>回应人物</span><i>→</i><span>人物线 / 信息线</span></div><p class="boundary"><b>完成边界</b> 实机可核对角色出场、任务选项、竹林对话与场景切换；长线人物关系和剧情影响属于策划方案。</p></section><div class="evidence two board"><figure><img src="media/case-assets/academy/chapter-one-plan.webp" alt="学院迷雾章节设计表第一页"><figcaption>原始章节表 01｜委托选择与竹林场景</figcaption></figure><figure><img src="media/case-assets/academy/chapter-two-plan.webp" alt="学院迷雾章节设计表第二页"><figcaption>原始章节表 02｜人物对话与回应选项</figcaption></figure></div></div></details>
+      </article>
+
+      <article class="project" id="archeditor" data-project="archeditor">
+        <header class="project-topline"><span>05</span><span>游戏化平台 · 交互工具</span><span>2024</span></header>
+        <figure class="project-cover"><img src="media/media/covers/archeditor-cover.jpg" alt="ArchEditor 项目主视觉"></figure>
+        <section class="overview"><div><p class="eyebrow">项目介绍</p><h2>ArchEditor</h2><p class="tagline">三维体块约束的 AI 建筑创作工具</p></div><div><p>使用者在 Unity 中编辑场地和三维体块，输出选定视角的深度图。ControlNet 以深度图约束空间结构，Stable Diffusion 结合文字提示生成方案图。</p><dl><div><dt>职责</dt><dd>系统设计 · 交互设计 · 开发</dd></div><div><dt>进度</dt><dd>完成体块编辑与深度约束链路</dd></div><div><dt>工具</dt><dd>Unity · C# · SD · ControlNet</dd></div></dl></div></section>
+        <section class="demo"><div><p class="eyebrow">项目演示</p><h3>Unity 编辑端</h3><p>场地边界、体块放置、参数调整与局部变形。</p><span>01:04</span></div><video controls preload="metadata" poster="media/media/covers/archeditor-cover.jpg"><source src="media/media/videos/archeditor.mp4" type="video/mp4">浏览器不支持视频播放。</video></section>
+        <div class="evidence single"><figure><img src="media/media/gallery/archeditor-massing.jpg" alt="ArchEditor 三维体块编辑界面"><figcaption>Unity 编辑端｜调整体块形态、尺寸与局部空间关系</figcaption></figure></div>
+        <section class="system-feature"><div class="feature-copy"><p class="eyebrow">AI 创作流程</p><h3>体块 · 约束 · 生成</h3><p>空间偏差返回 Unity 调整体块或视角；风格偏差返回文字提示与生成参数，让不同问题进入不同修改路径。</p></div><figure class="diagram tech-route"><figcaption><strong>技术路线</strong><span>Unity · 深度图 · ControlNet · Stable Diffusion</span></figcaption><div class="tech-columns"><section><b>01 / UNITY 编辑端</b><span>场地与建筑条件</span><i>↓</i><span class="core">编辑三维体块</span><i>↓</i><span>确定方案视角</span><i>↓</i><span class="core">生成并上传深度图</span></section><em>空间约束 →</em><section><b>02 / AI 生成与检查</b><div class="dual-input"><span class="core">ControlNet<br>读取空间约束</span><span>文字提示<br>与风格参数</span></div><i>↓</i><span class="core">Stable Diffusion 生成方案图</span><i>↓</i><span>对照体块检查轮廓与空间关系</span><i>↓</i><span class="decision">是否符合预期？</span></section></div><div class="result-pair three"><p><b>形体 / 视角</b> 返回 Unity</p><p><b>风格 / 表达</b> 返回提示参数</p><p><b>检查通过</b> 输出方案图</p></div></figure></section>
+        <details class="detail-drawer"><summary><span>查看约束与修改判断</span><small>空间输入 · 深度图 · 结果检查</small></summary><div class="drawer-body"><div class="info-grid two"><article><b>空间约束</b><p>纯文字生成难以稳定保持建筑形体和空间关系。体块与深度图先明确空间边界，再交给生成模型。</p></article><article><b>修改路径</b><p>形体偏差返回 Unity；风格与表达偏差返回文字提示，避免把不同问题混在一次修改里。</p></article></div><div class="evidence two"><figure><img src="media/media/gallery/archeditor-interface.jpg" alt="ArchEditor 编辑界面"><figcaption>编辑界面｜空间输入与参数控制</figcaption></figure><figure><img src="media/media/gallery/archeditor-flow.jpg" alt="ArchEditor 生成流程"><figcaption>生成流程｜深度约束与方案输出</figcaption></figure></div></div></details>
+      </article>
+
+      <article class="project" id="bamiyan" data-project="bamiyan">
+        <header class="project-topline"><span>06</span><span>严肃游戏 · 空间体验</span><span>2025</span></header>
+        <figure class="project-cover"><img src="media/media/covers/bamiyan.jpg" alt="巴米扬虚拟现实体验项目主视觉"></figure>
+        <section class="overview"><div><p class="eyebrow">项目介绍</p><h2>巴米扬虚拟现实体验</h2><p class="tagline">洞窟复原与关卡引导</p></div><div><p>基于测绘、影像和历史资料重建东大佛周边洞窟。玩家沿高差前进，通过通道宽窄、采光、可见目标与烛火交互寻找路线。</p><dl><div><dt>职责</dt><dd>空间研究 · 关卡引导 · VR 体验设计</dd></div><div><dt>进度</dt><dd>完成空间复原与关卡体验设计</dd></div><div><dt>工具</dt><dd>Unity</dd></div></dl></div></section>
+        <div class="evidence two"><figure><img src="media/media/bamiyan/ascent.png" alt="沿光线向上攀登洞窟"><figcaption>通道引导｜窄路与采光共同提示向上路线</figcaption></figure><figure><img src="media/media/bamiyan/candle.png" alt="洞窟烛火交互"><figcaption>停留交互｜暗处烛火让玩家停下观察和收集</figcaption></figure></div>
+        <section class="system-feature"><div class="feature-copy"><p class="eyebrow">关卡系统</p><h3>复原 · 关卡 · 体验</h3><p>复原依据进入关卡组织；环境引导和玩家行动共同产生空间与叙事体验，试玩和展览反馈再返回路线组织。</p></div><figure class="diagram layered-flow"><figcaption><strong>项目系统</strong><span>从资料复原到遗产体验</span></figcaption><div class="lane"><b>复原依据</b><div><span>测绘 · 影像 · 历史资料</span><i>→</i><span class="core">佛龛与洞窟三维模型</span></div></div><em>提取真实空间关系 ↓</em><div class="lane"><b>关卡组织</b><div><span>洞口 · 高差 · 尺度 · 采光</span><i>→</i><span>探索路线</span><i>→</i><span class="core">环境引导</span></div></div><em>转化为玩家经历 ↓</em><div class="lane"><b>体验结果</b><div><span>移动 · 俯身 · 观察 · 收集</span><i>→</i><span>空间与叙事反馈</span><i>→</i><span class="core">遗产理解</span></div></div><p class="feedback-line">试玩与展览反馈 → 返回路线组织与环境引导</p></figure></section>
+        <details class="detail-drawer"><summary><span>查看关卡节点与空间依据</span><small>入口 · 狭道 · 烛火洞窟 · 高处平台</small></summary><div class="drawer-body"><div class="stage-list"><article><img src="media/media/bamiyan/entrance.png" alt="巴米扬洞窟入口"><div><span>01 / 关卡节点</span><h3>洞窟入口</h3><p><b>空间线索</b> 洞窟开口与可见路线</p><p><b>玩家行为</b> 确认进入方向，沿高差探索</p></div></article><article><img src="media/media/bamiyan/ascent.png" alt="巴米扬狭窄通道"><div><span>02 / 关卡节点</span><h3>狭窄通道</h3><p><b>空间线索</b> 收窄尺度与向上的光线</p><p><b>玩家行为</b> 靠近并俯身通过</p></div></article><article><img src="media/media/bamiyan/candle.png" alt="巴米扬烛火洞窟"><div><span>03 / 关卡节点</span><h3>烛火洞窟</h3><p><b>空间线索</b> 暗处烛火与局部照明</p><p><b>玩家行为</b> 停下观察和收集</p></div></article><article><img src="media/media/bamiyan/outlook.png" alt="巴米扬高处平台"><div><span>04 / 关卡节点</span><h3>高处平台</h3><p><b>空间线索</b> 采光口与逐渐打开的远景</p><p><b>玩家行为</b> 从新高度观察佛龛</p></div></article></div><section class="content-block media-copy"><img src="media/media/bamiyan/route-model.png" alt="东大佛和周边洞窟空间模型"><div><p class="eyebrow">空间依据</p><h3>从资料到关卡</h3><p>空间模型回答“路线在哪里”，实机节点回答“玩家为什么会继续前进”。</p><aside><b>第二届全国虚拟建筑研讨会</b><span>参展中</span><p>展示虚拟现实空间复原、洞窟路线与体验设计。</p></aside></div></section></div></details>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer"><p>李琬欣 · Portfolio</p><span>离线静态版｜无需网络，保持文件夹结构后双击 index.html</span></footer>
+</body>
+</html>

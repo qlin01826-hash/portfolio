@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">怪兽养殖建造系统结构</title>
+  <desc id="desc">投入、生产、积累与扩张之间的循环关系。</desc>
+  <rect width="1600" height="1000" fill="#15161b"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity=".12">
+    <path d="M0 166h1600M0 333h1600M0 500h1600M0 666h1600M0 833h1600"/>
+    <path d="M266 0v1000M533 0v1000M800 0v1000M1066 0v1000M1333 0v1000"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#f2f2ed">
+    <text x="94" y="112" font-size="28" letter-spacing="6">模拟经营系统 · 2026</text>
+    <text x="94" y="238" font-size="94" font-weight="700">规模扩张</text>
+    <text x="94" y="302" font-size="28" fill="#a8aaa4">基地 · 区域 · 设施 · 员工</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="30" text-anchor="middle">
+    <g><rect x="100" y="475" width="270" height="150" rx="4" fill="#25262c" stroke="#f2f2ed" stroke-width="3"/><text x="235" y="542" fill="#f2f2ed">01</text><text x="235" y="589" fill="#f2f2ed">投入资源</text></g>
+    <g><rect x="510" y="475" width="270" height="150" rx="4" fill="#25262c" stroke="#f2f2ed" stroke-width="3"/><text x="645" y="542" fill="#f2f2ed">02</text><text x="645" y="589" fill="#f2f2ed">建设区域</text></g>
+    <g><rect x="920" y="475" width="270" height="150" rx="4" fill="#25262c" stroke="#f2f2ed" stroke-width="3"/><text x="1055" y="542" fill="#f2f2ed">03</text><text x="1055" y="589" fill="#f2f2ed">员工生产</text></g>
+    <g><rect x="1230" y="724" width="270" height="150" rx="4" fill="#f2f2ed"/><text x="1365" y="791" fill="#15161b">04</text><text x="1365" y="838" fill="#15161b">积累扩张</text></g>
+  </g>
+  <g fill="none" stroke="#f2f2ed" stroke-width="4">
+    <path d="M370 550h125"/><path d="M480 536l15 14-15 14"/>
+    <path d="M780 550h125"/><path d="M890 536l15 14-15 14"/>
+    <path d="M1190 585l150 120"/><path d="M1323 679l17 26-30-3"/>
+    <path d="M1230 799H235q-135 0-135-135"/><path d="M86 679l14-15 14 15"/>
+  </g>
+  <text x="96" y="938" font-family="Arial, sans-serif" font-size="24" fill="#a8aaa4" letter-spacing="3">系统关系图 · 不展示内部素材</text>
+</svg>
