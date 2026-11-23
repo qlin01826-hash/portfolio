@@ -1438,19 +1438,6 @@ body::before { display: none; }
 .leafboat-home-material { scroll-margin-top: 82px; display: grid; grid-template-columns: minmax(0, 3fr) minmax(320px, 2fr); gap: 32px; align-items: start; margin: 0 0 52px; padding: 32px; border: 1px solid #ffffff32; background: #101214; }
 .leafboat-home-diagram { min-width: 0; background: #111315; }
 .leafboat-home-diagram .lb-existing-preview .lb-diagram { padding: 18px; }
-.leafboat-home-material > .leafboat-home-copy { grid-column: 1 / -1; max-width: 900px; }
-.home-full-diagrams { grid-column: 1 / -1; min-width: 0; }
-.home-full-diagrams .lb-diagram { margin: 0; }
-.home-full-diagrams .lb-mermaid > svg { display: block; width: min(100%, 900px); min-width: 720px; height: auto; margin-inline: auto; }
-.home-full-diagrams .lb-diagram figcaption { margin-top: 18px; color: #aaa; font-size: .875rem; line-height: 1.7; }
-.home-diagram-detail { grid-column: 1 / -1; min-width: 0; margin-top: 18px; border: 1px solid #ffffff38; background: #111315; }
-.home-diagram-detail > summary { cursor: pointer; padding: 18px 22px; color: #f1f1ee; font-size: 1rem; line-height: 1.6; }
-.home-diagram-detail > summary:focus-visible { outline: 2px solid #eee; outline-offset: 3px; }
-.home-diagram-detail > .lb-diagram { border: 0; border-top: 1px solid #ffffff30; }
-.mr-home-flow-list { display: grid; gap: 24px; padding: 22px; border-top: 1px solid #ffffff30; }
-.mr-home-flow-list figure { min-width: 0; margin: 0; }
-.mr-home-flow-list figcaption { margin-bottom: 12px; color: #eee; font-size: 1rem; line-height: 1.6; }
-.mr-home-flow-list .mr-flow-svg { min-width: 850px; }
 .project-system-home .lb-existing-preview .lb-mermaid > svg { max-height: 430px; }
 .project-system-home .lb-diagram-scroll { min-height: 360px; display: flex; align-items: center; overflow: auto; }
 .project-system-home .lb-diagram-scroll .lb-mermaid { min-width: 650px; }
